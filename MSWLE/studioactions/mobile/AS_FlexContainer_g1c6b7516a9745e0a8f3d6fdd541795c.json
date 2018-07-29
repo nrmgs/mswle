@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_g1c6b7516a9745e0a8f3d6fdd541795c": {
+        "id": "AS_FlexContainer_g1c6b7516a9745e0a8f3d6fdd541795c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_cf04f791946a4c8c94c06c285b9ccc9b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmForm1",
+            "formKUID": "a5a0afbbe63b4679b0b509bce53de09d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": true,
+            "package": ""
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_e898296ea41e4812857a8a653dbb5cbe",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "category = \"chesmfv\";\nqtCategoryFrom = \"new\";",
+            "callbackType": null,
+            "disabled": true
+        }]
+    }
+}

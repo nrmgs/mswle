@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_margin_": [
+        2,
+        1,
+        2,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s43b0e4e006643a7b6f14eb749ae23cb",
+    "_text_": "RichText",
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblAbout",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f216d36dcf054aa8bda22450b788f07a",
+    "linkskin": "sd6db4e1b82e4f18a423f1e96389d188",
+    "margininpixel": false,
+    "name": "kony.ui.RichText",
+    "paddInPixel": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "hbxAbout",
+    "pf": "SegAboutExpan",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "watchos": {
+        "render": false
+    },
+    "widgetalignment": 5,
+    "windows10": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    }
+}

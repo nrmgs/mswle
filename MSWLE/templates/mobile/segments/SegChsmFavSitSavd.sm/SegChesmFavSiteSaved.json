@@ -1,0 +1,43 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizHBox",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        2,
+        0,
+        2
+    ],
+    "_percent_": true,
+    "_position_": 3,
+    "_skin_": "s276fe8cd0944d6fb5a92abd5d6c817d",
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "lblSecHdr",
+        "boxDelFavSite"
+    ],
+    "containerId": true,
+    "containerweight": 100,
+    "contextmenu": null,
+    "id": "SegChesmFavSiteSaved",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ae9e85d3787d49edaf20b3f54fea8c0b",
+    "layouttype": 0,
+    "marginLocked": false,
+    "margininpixel": false,
+    "name": "kony.ui.Box",
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "SegChsmFavSitSavd",
+    "pf": "SegChsmFavSitSavd",
+    "wType": "HBox",
+    "widgetalignment": 1
+}

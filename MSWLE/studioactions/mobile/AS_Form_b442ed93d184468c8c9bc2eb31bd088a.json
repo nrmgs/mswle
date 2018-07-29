@@ -1,0 +1,27 @@
+{
+    "AS_Form_b442ed93d184468c8c9bc2eb31bd088a": {
+        "id": "AS_Form_b442ed93d184468c8c9bc2eb31bd088a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a76bdd33eba6454e8f788291e44c8c8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c957bcab8f2148e28adfd079136c9304",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkNetworkAndSync",
+            "display": "checkNetworkAndSync",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

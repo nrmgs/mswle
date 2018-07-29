@@ -1,0 +1,27 @@
+{
+    "AS_Button_bc2ef7ca1d83471aba311d022a258cd9": {
+        "id": "AS_Button_bc2ef7ca1d83471aba311d022a258cd9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmQtCategory",
+            "type": "forms",
+            "platform": null,
+            "KUID": "id8486b7da574e88861418f4c1f9478d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onClick_b22bd8c6d9df4cac8ab19a3d9cdd04fb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "leftSelection",
+            "display": "leftSelection",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

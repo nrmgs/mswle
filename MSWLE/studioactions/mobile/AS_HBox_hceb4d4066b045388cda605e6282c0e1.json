@@ -1,0 +1,33 @@
+{
+    "AS_HBox_hceb4d4066b045388cda605e6282c0e1": {
+        "id": "AS_HBox_hceb4d4066b045388cda605e6282c0e1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "SegTmpLocation",
+            "type": "templates",
+            "platform": null,
+            "KUID": "fd645d8aa643437fa9c3e11d20f60705"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_f40b079ed5e7453ab9c04ec998e80181",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickLocation",
+            "display": "onClickLocation",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

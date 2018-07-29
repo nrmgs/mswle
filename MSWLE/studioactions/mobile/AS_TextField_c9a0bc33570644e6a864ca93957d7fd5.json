@@ -1,0 +1,35 @@
+{
+    "AS_TextField_c9a0bc33570644e6a864ca93957d7fd5": {
+        "id": "AS_TextField_c9a0bc33570644e6a864ca93957d7fd5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmPreConfirmB",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ic2d51cf177b4585b8472ce15717b8e1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onTouchEnd_f713baf49fab49789ff1350d7deb00f2",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPrimaryContractor",
+            "formKUID": "c6304acf55684133b93e12428d2ef58c",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

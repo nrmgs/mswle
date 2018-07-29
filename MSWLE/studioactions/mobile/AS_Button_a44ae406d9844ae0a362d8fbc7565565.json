@@ -1,0 +1,28 @@
+{
+    "AS_Button_a44ae406d9844ae0a362d8fbc7565565": {
+        "id": "AS_Button_a44ae406d9844ae0a362d8fbc7565565",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b4e1dcfcf7d141e3a5c6c0bd9e04983d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f908da95c6d84a1e981a835dbe046842",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "leftSelectionDash",
+            "display": "leftSelectionDash",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

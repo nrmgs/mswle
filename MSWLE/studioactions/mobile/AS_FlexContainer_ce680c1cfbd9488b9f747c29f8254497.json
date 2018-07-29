@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_ce680c1cfbd9488b9f747c29f8254497": {
+        "id": "AS_FlexContainer_ce680c1cfbd9488b9f747c29f8254497",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "footerNext",
+            "type": "templates",
+            "platform": null,
+            "KUID": "ad1d16ce8d3c454b89766546a4a6699c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j008d857389d424997aa751231d4ae01",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "formNavCancel",
+            "display": "formNavCancel",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

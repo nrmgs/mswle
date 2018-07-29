@@ -1,0 +1,42 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizHBox",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        2,
+        0,
+        2
+    ],
+    "_percent_": true,
+    "_position_": 3,
+    "_skin_": "s276fe8cd0944d6fb5a92abd5d6c817d",
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "VBox0c13368a2b49f41"
+    ],
+    "containerId": true,
+    "containerweight": 100,
+    "contextmenu": null,
+    "id": "boxSegAboutExpan",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f9e4cace6a0d4ea6b5c821016bf8c19a",
+    "layouttype": 0,
+    "marginLocked": false,
+    "margininpixel": false,
+    "name": "kony.ui.Box",
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "SegAboutExpan",
+    "pf": "SegAboutExpan",
+    "wType": "HBox",
+    "widgetalignment": 1
+}

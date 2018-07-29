@@ -1,0 +1,24 @@
+{
+    "AS_Button_e3b5fbbb7bc54ae6b91ee3be5e307381": {
+        "id": "AS_Button_e3b5fbbb7bc54ae6b91ee3be5e307381",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2a1d30b0ab54c9fb9b5b2a5e66cc500"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e12c3ffea72d478e8c96d9e71afec59d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmHome.headerSegButtonLeft.skin = \"sknBtnUnSelected\";\nfrmHome.headerSegButtonRIght.skin = \"sknBtnSelected\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "AS_Button_gadac40caf114d6fb6a84d85c25e9b6a": {
+        "id": "AS_Button_gadac40caf114d6fb6a84d85c25e9b6a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a76bdd33eba6454e8f788291e44c8c8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ibb4d126680d44809565cde8e61cb4ab",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkNetworkAndSync",
+            "display": "checkNetworkAndSync",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

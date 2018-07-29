@@ -1,0 +1,35 @@
+{
+    "AS_Segment_e1b82bf6e8f44e90b848db8080f326ec": {
+        "id": "AS_Segment_e1b82bf6e8f44e90b848db8080f326ec",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmPrimaryContractor",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c6304acf55684133b93e12428d2ef58c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onRowClick_c2ce167a4ef74ed7944404f57e7b475c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmIncompLst",
+            "formKUID": "c4191bc3a743458e886c42871f092306",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "AS_Button_hfcb4977eb20484b9440c900bae199d2": {
+        "id": "AS_Button_hfcb4977eb20484b9440c900bae199d2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_c89b57cda49c49c0a70aa8996c3dbe09",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "rightSelFavSites",
+            "display": "rightSelFavSites",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_c422387e1d744847892ced91bb7a8d22": {
+        "id": "AS_Button_c422387e1d744847892ced91bb7a8d22",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "popupCancel",
+            "type": "popups",
+            "platform": "",
+            "KUID": "aa69053bde974d058f7608e5d28927cd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ica74b2070244fe39517cddc68ec5f63",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popCancelYes",
+            "display": "popCancelYes",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

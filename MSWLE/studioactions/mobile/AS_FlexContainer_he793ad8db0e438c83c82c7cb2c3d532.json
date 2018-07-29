@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_he793ad8db0e438c83c82c7cb2c3d532": {
+        "id": "AS_FlexContainer_he793ad8db0e438c83c82c7cb2c3d532",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPreConfirmA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e77fbf1d98344c8b813ec3489e2e72c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_afc76c437b4a4e3c9aaf444cffd483e7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "Popup.lblPopTxt.text = \"Enter first few letters of the company that you engaged and then select the exact name from the drop down menu. if the primary contract company name is unknown, leave this field blank\";\nPopup.show();",
+            "callbackType": null
+        }]
+    }
+}

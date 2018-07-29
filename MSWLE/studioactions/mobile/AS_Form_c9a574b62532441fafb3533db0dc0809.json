@@ -1,0 +1,28 @@
+{
+    "AS_Form_c9a574b62532441fafb3533db0dc0809": {
+        "id": "AS_Form_c9a574b62532441fafb3533db0dc0809",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboardCopy",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i1a1d65717634f9da7adcf74c829eb0e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a118ef0bf26947cab7f0f099694ca5e2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "formDashInit",
+            "display": "formDashInit",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

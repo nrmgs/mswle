@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s32acd82e41a40068f21d737f65b04a9",
+    "_text_": "Search Online",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sb979da6ed1c416b9621fe1a0b5434ad",
+    "id": "hdrChesmSiteLeft",
+    "ide_onClick": "AS_Button_eeefa4f887f94d4f9c549c7fed707bbe",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b6819d140e144ea8840412d5c1d70591",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_a71e80a85ffb4a9993f4f62aeb4b3bd8",
+    "parent": "segmentedControl",
+    "pf": "frmChesmFavSite",
+    "wType": "Button",
+    "zindex": 1
+}

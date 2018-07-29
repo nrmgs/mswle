@@ -1,0 +1,22 @@
+{
+    "AS_Form_d63f79fbf2124c949138e3663203cbd0": {
+        "id": "AS_Form_d63f79fbf2124c949138e3663203cbd0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmChesmFavSite",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ia0f71b1a3c14cbe8ee013145723fce8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_d3f3d124e6e24a19bcdeb2c1c131d9fd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitleSetg.lblHdrTitle.text = \"Favorite CHESM-Specific Sites\";\nflxHdrTitleSetg.flxSettingBtn.setVisibility(false);\nfrmChesmFavSite.txtSearchChesmSeg.text=\"\";\nfrmChesmFavSite.segFavChesmSites.setData([]);\nleftSelChesmFavSites();\n\n"
+        }]
+    }
+}

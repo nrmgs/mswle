@@ -1,0 +1,30 @@
+{
+    "AS_TextField_6291972847d945fe910da98a60f07f69": {
+        "id": "AS_TextField_6291972847d945fe910da98a60f07f69",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY____cc9ac0307b28419c80e504994f4f6c0f",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "propertyName": "skin",
+            "propertyValue": "CopyslBlueColor016fef214cb9347",
+            "itemKUID": "b631435ecef6461a9389eeeaab1b0f4b",
+            "widgetKUID": "122307d8175b41a4a9dc0b7eba6aa28d",
+            "skinKUID": "s21c3c22b007466985fa1db3b25cd3bb",
+            "isSkinProperty": true,
+            "wType": "FlexContainer",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

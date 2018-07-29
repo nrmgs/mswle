@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_f7bce739f38b4cb6a8454564149f8073": {
+        "id": "AS_FlexContainer_f7bce739f38b4cb6a8454564149f8073",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "footerSubmit",
+            "type": "templates",
+            "platform": "",
+            "KUID": "b3d7141b4adb4cc79df7d8d149ffb984"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

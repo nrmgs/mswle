@@ -1,0 +1,20 @@
+{
+    "AS_TextField_a4d2b28a18e04cd9bb4ae515bab774e0": {
+        "id": "AS_TextField_a4d2b28a18e04cd9bb4ae515bab774e0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_onTextChange_c97d5651940e43a9998fa00e59075986",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if (this.view.Container6PinDot1.TxtFld6PinDot1.text.length == 1) {\n  this.view.Container6PinDot1.TxtFld6PinDot1.setFocus(false);\n  this.view.Container6PinDot1.TxtFld6PinDot1.skin = \"PinDotFilled\";\n  this.view.Container6PinDot2.TxtFld6PinDot2.setFocus(true);\n} else if (this.view.Container6PinDot1.TxtFld6PinDot1.text.length == 0) {\n  this.view.Container6PinDot1.TxtFld6PinDot1.skin = \"PinDotFocus\";\n}",
+            "callbackType": null
+        }]
+    }
+}

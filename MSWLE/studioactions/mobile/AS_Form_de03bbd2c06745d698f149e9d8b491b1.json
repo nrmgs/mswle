@@ -1,0 +1,22 @@
+{
+    "AS_Form_de03bbd2c06745d698f149e9d8b491b1": {
+        "id": "AS_Form_de03bbd2c06745d698f149e9d8b491b1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFavSite",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f967a9840d8e430e84a7c256702f07e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_dc2b1c3504f641d2b76c01f3974ee5da",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitleSetg.lblHdrTitle.text = \"Favorite MSW Sites\";\nflxHdrTitleSetg.flxSettingBtn.setVisibility(false);\nfrmFavSite.txtSearchSeg.text=\"\";\nfrmFavSite.segFavSites.setData([]);\nleftSelFavSites();\n"
+        }]
+    }
+}

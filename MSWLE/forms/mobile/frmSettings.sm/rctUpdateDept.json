@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "Default": {
+        "contentAlignment": 5
+    },
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "2"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "17dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s6f4b0dca7464ba9a40615126aa39f49",
+    "_text_": "Click <u>here</u> to refresh the Departments associated with your favorite Sites, Last update performed XX days ",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "88.00%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "rctUpdateDept",
+    "info": null,
+    "iphone": {
+        "contentAlignment": 5
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "jbe52e4c28714194ae9cd4a0e1a35b5e",
+    "linkskin": "sd6db4e1b82e4f18a423f1e96389d188",
+    "name": "kony.ui.RichText",
+    "parent": "FlexContainer0e53cb804c2ba4e",
+    "pf": "frmSettings",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

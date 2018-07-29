@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_id9a0629fb1f455ab98d889aa0d6164e": {
+        "id": "AS_FlexContainer_id9a0629fb1f455ab98d889aa0d6164e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "hdrMainHome",
+            "type": "templates",
+            "platform": null,
+            "KUID": "d92ff321b18a4246bd3ea9b38185a235"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ace1aa2e83a14a089b6c760e29c86a53",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickHome",
+            "display": "onClickHome",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

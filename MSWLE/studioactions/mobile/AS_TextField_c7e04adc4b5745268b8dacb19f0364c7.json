@@ -1,0 +1,33 @@
+{
+    "AS_TextField_c7e04adc4b5745268b8dacb19f0364c7": {
+        "id": "AS_TextField_c7e04adc4b5745268b8dacb19f0364c7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmForm1A",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j1084164deb145e3a50b45fdff8df5e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTouchEnd_c05f236e178a44f2a59e772a3de2fb92",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "callDepartLst",
+            "display": "callDepartLst",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

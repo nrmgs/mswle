@@ -1,0 +1,34 @@
+{
+    "AS_FlexContainer_g1dd0de856a3444980286da65dcc40bd": {
+        "id": "AS_FlexContainer_g1dd0de856a3444980286da65dcc40bd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "d464cda7004d40a7b09f7505b5e2bc68"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fe15dd6f404042bb89af717c593a8a40",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "callLogin",
+            "display": "callLogin",
+            "inputparams": [{
+                "name": "userName"
+            }],
+            "parentId": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

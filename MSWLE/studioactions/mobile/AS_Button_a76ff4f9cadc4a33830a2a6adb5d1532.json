@@ -1,0 +1,27 @@
+{
+    "AS_Button_a76ff4f9cadc4a33830a2a6adb5d1532": {
+        "id": "AS_Button_a76ff4f9cadc4a33830a2a6adb5d1532",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "popupDelete",
+            "type": "popups",
+            "platform": null,
+            "KUID": "j06a95fdb7224e4eb016516f7c1de6d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_i7158db60aed4971860f9915ed028267",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popDelYes",
+            "display": "popDelYes",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

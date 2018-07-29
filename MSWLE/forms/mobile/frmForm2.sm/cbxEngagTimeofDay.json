@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCheckBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "83dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0869e2a371b4d2db09df965f4edd39f",
+    "_top_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "disabledSkins": {},
+    "focusskin": "s0869e2a371b4d2db09df965f4edd39f",
+    "groupcells": false,
+    "id": "cbxEngagTimeofDay",
+    "ide_onSelection": "AS_CheckBoxGroup_ac45793017234550890d80ddacdc518b",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "groupCells": false,
+            "viewType": 1
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "horizontal",
+    "kuid": "g25c16e0d70a424abbb7ce60a5ff5dd6",
+    "masterdata": [
+        [
+            "1",
+            "Day"
+        ],
+        [
+            "2",
+            "Night"
+        ]
+    ],
+    "name": "kony.ui.CheckBoxGroup",
+    "orientation": "horizontal",
+    "parent": "flxEngagTimeofDay",
+    "pf": "frmForm2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": [],
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "tickedimage": "checkboxgreen.png",
+    "untickedimage": "checkboxwhite.png",
+    "viewtype": 0,
+    "wType": "CheckBoxGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

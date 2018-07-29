@@ -1,0 +1,29 @@
+{
+    "AS_Button_bf04dda6492a40d58121dec7c113ad31": {
+        "id": "AS_Button_bf04dda6492a40d58121dec7c113ad31",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "g51f771ef6a74d64a0c3fbde31afa026"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a70df4ba2e0f4655acd3dcb6c544aa5e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "callLogin",
+            "display": "callLogin",
+            "inputparams": [{
+                "name": "userName"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "number",
+        "value": "50"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Name of Subcontractor",
+    "_right_": 13,
+    "_skin_": "s2551e8d2e334a93baa7801b1e8080dc",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "42dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "94.46%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s42dcad068874435b5555314f0ed0e98",
+    "id": "txtSubContrName",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "closeButtonText": "Done",
+            "pasteboardType": 1
+        }
+    },
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "ae71902e24a0411bb996794c73c2f8b4",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxSubContr",
+    "pasteboardtype": 1,
+    "pf": "frmPreConfirmB",
+    "placeholderskin": "se677375a23d438b92c572890c7631ea",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

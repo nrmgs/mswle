@@ -1,0 +1,27 @@
+{
+    "AS_Form_d3fe8e70c76e429e9a162aacaf0da5b1": {
+        "id": "AS_Form_d3fe8e70c76e429e9a162aacaf0da5b1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b4e1dcfcf7d141e3a5c6c0bd9e04983d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_preShow_ife7eeabbbb949febc7c2e8c1995cb00",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "formDashInit",
+            "display": "formDashInit",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

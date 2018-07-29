@@ -1,0 +1,28 @@
+{
+    "AS_Button_dc7a3602373b4829997c3e4441d06ac6": {
+        "id": "AS_Button_dc7a3602373b4829997c3e4441d06ac6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmForm1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a5a0afbbe63b4679b0b509bce53de09d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___afe5e9d6cec64c4589a6ab5eb5de17cb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getselecSiteAndDept",
+            "display": "getselecSiteAndDept",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

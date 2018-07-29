@@ -1,0 +1,43 @@
+{
+    "AS_Form_j5212ac15bdf406a948b8396981bac48": {
+        "id": "AS_Form_j5212ac15bdf406a948b8396981bac48",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmQtCategory1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e689a325fbae422787afda6e6c46ff09"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g190a24966384d0fb705bf75bca3aaca",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setJSAQtCatLst",
+            "display": "setJSAQtCatLst",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "INVOKE_FUNCTION___b27febe5b40f481cbbeaf27f0ec292de",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "hdrTxtChng",
+            "display": "hdrTxtChng",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "ADD_SNIPPET__eabf7417e6c640d7a454b06a72db5bcf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitle.flxSettingBtn.setVisibility(true);",
+            "parentId": null
+        }]
+    }
+}

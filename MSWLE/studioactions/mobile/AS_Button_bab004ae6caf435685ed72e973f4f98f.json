@@ -1,0 +1,28 @@
+{
+    "AS_Button_bab004ae6caf435685ed72e973f4f98f": {
+        "id": "AS_Button_bab004ae6caf435685ed72e973f4f98f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b4e1dcfcf7d141e3a5c6c0bd9e04983d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f4ed1d5683594a01814939118d219f6c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "SelectAllAssts",
+            "display": "SelectAllAssts",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

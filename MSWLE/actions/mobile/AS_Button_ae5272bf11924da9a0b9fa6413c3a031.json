@@ -1,0 +1,17 @@
+{
+    "AS_Button_ae5272bf11924da9a0b9fa6413c3a031": {
+        "id": "AS_Button_ae5272bf11924da9a0b9fa6413c3a031",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_onClick_f75372def1e34a9c9382e4e2d1f02556",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "popupSubmit.dismiss();\nfrmQtCategory.show();",
+            "callbackType": null
+        }]
+    }
+}

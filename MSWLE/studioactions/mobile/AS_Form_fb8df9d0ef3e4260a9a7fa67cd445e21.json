@@ -1,0 +1,23 @@
+{
+    "AS_Form_fb8df9d0ef3e4260a9a7fa67cd445e21": {
+        "id": "AS_Form_fb8df9d0ef3e4260a9a7fa67cd445e21",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAbout",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fa8548cc611349cb9cecbeff392ab806"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_a84bdb796b6c4c718b77f1fe6cae5753",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitleSetg.lblHdrTitle.text = \"About\";\nflxHdrTitleSetg.flxSettingBtn.setVisibility(false);",
+            "callbackType": null
+        }]
+    }
+}

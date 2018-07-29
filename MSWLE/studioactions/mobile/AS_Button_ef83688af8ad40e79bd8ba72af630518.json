@@ -1,0 +1,21 @@
+{
+    "AS_Button_ef83688af8ad40e79bd8ba72af630518": {
+        "id": "AS_Button_ef83688af8ad40e79bd8ba72af630518",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_fb1b78e95aef47caa51449ed78ae69e0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "networkAvailable",
+            "display": "networkAvailable",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "AS_TextField_e2732abff41a41228e201de691896426": {
+        "id": "AS_TextField_e2732abff41a41228e201de691896426",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmForm1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a5a0afbbe63b4679b0b509bce53de09d"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "AS_Button_ja3f5e8749244b239519f2acf8864405": {
+        "id": "AS_Button_ja3f5e8749244b239519f2acf8864405",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_g2975bdbf06244e48a630d5ce4953683",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "invokeMSAuthApp",
+            "display": "invokeMSAuthApp",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

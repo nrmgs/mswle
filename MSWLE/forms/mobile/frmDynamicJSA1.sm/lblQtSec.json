@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "Default": {
+        "contentAlignment": 4
+    },
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        1,
+        0,
+        1
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_skin_": "sad71e8dbcb44534b0d536cf8f6c8a88",
+    "_text_": "RichText",
+    "_top_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblQtSec",
+    "info": null,
+    "iphone": {
+        "contentAlignment": 4
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b5120eb59831489fac3d0e15c9710d8f",
+    "linkskin": "sd6db4e1b82e4f18a423f1e96389d188",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "FlexContainer0ee63aee574b540",
+    "pf": "frmDynamicJSA1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

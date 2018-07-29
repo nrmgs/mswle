@@ -1,0 +1,32 @@
+{
+    "AS_Form_b1e77238d8eb4102b64f5724a1c3e77e": {
+        "id": "AS_Form_b1e77238d8eb4102b64f5724a1c3e77e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPreConfirmB",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ic2d51cf177b4585b8472ce15717b8e1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_preShow_a7eea746d0a84ef99dedc887d6b28f95",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "hdrTxtChng",
+            "display": "hdrTxtChng",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "ADD_SNIPPET__eccd2e15798f441f9aadc02add7d250b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitle.flxSettingBtn.setVisibility(true);",
+            "parentId": null
+        }]
+    }
+}

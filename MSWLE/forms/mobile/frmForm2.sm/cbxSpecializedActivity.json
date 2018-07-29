@@ -1,0 +1,122 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCheckBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "1175px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_skin_": "s0869e2a371b4d2db09df965f4edd39f",
+    "_top_": {
+        "type": "string",
+        "value": "940dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "99.03%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "focusskin": "s0632ce60aea406e9af954d658d76952",
+    "groupcells": true,
+    "id": "cbxSpecializedActivity",
+    "ide_onSelection": "AS_CheckBoxGroup_afe2f4f56989476e83e8fb0868443072",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "groupCells": false,
+            "viewType": 1
+        }
+    },
+    "isvisible": true,
+    "itemorientation": "horizontal",
+    "kuid": "j5d5604441bc428ab70af93bbfc917ab",
+    "masterdata": [
+        [
+            "605",
+            "Confined Space"
+        ],
+        [
+            "612",
+            "Control of Static Electricity"
+        ],
+        [
+            "604",
+            "Diving"
+        ],
+        [
+            "607",
+            "Excavation"
+        ],
+        [
+            "606",
+            "Electrical"
+        ],
+        [
+            "608",
+            "Hot Work"
+        ],
+        [
+            "609",
+            "Isolation of Hazardous Energy"
+        ],
+        [
+            "610",
+            "Lifting and Rigging"
+        ],
+        [
+            "611",
+            "Portable Gas Detection"
+        ],
+        [
+            "613",
+            "Work at Height"
+        ],
+        [
+            "614",
+            "Other"
+        ]
+    ],
+    "name": "kony.ui.CheckBoxGroup",
+    "orientation": "horizontal",
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "flxFrm2GrpHead",
+    "pf": "frmForm2",
+    "selectedkey": null,
+    "selectedkeys": [],
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "tickedimage": "checkboxgreen.png",
+    "untickedimage": "checkboxwhite.png",
+    "viewtype": 0,
+    "wType": "CheckBoxGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

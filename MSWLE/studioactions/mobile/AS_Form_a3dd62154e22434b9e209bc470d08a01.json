@@ -1,0 +1,22 @@
+{
+    "AS_Form_a3dd62154e22434b9e209bc470d08a01": {
+        "id": "AS_Form_a3dd62154e22434b9e209bc470d08a01",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDepartment",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d06c25e2fae34ccfada7ec6adc4758aa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_efe28c569a9741d3b289e7f42ca4f48e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitle.lblHdrTitle.text = \"Departments\";\nflxHdrTitle.flxSettingBtn.setVisibility(false);\n//frmDepartment.txtSearchDept.text=\"\";"
+        }]
+    }
+}

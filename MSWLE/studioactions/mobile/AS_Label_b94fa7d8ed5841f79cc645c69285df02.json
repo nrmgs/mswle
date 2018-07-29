@@ -1,0 +1,34 @@
+{
+    "AS_Label_b94fa7d8ed5841f79cc645c69285df02": {
+        "id": "AS_Label_b94fa7d8ed5841f79cc645c69285df02",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "hdrTempTitle",
+            "type": "templates",
+            "platform": "",
+            "KUID": "d887b0e8d006491a8cb02807e8f3d052"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j79415377cdd48738902dac481e0de08",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "backBtnPressed",
+            "display": "backBtnPressed",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

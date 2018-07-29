@@ -1,0 +1,34 @@
+{
+    "AS_RichText_g331048376064eba8ef593187d2922bf": {
+        "id": "AS_RichText_g331048376064eba8ef593187d2922bf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "linktext"
+        }, {
+            "datatype": "string",
+            "name": "attributes"
+        }],
+        "contextObj": {
+            "name": "frmSettings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fc92e40255b84cb683d9dc682ab49c5b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h749f4dcb6dd4a1a8e0fca5beddc7dff",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateDeptSites",
+            "display": "updateDeptSites",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

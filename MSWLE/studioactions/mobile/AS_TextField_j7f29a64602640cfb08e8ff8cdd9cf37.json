@@ -1,0 +1,29 @@
+{
+    "AS_TextField_j7f29a64602640cfb08e8ff8cdd9cf37": {
+        "id": "AS_TextField_j7f29a64602640cfb08e8ff8cdd9cf37",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmFavSite",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f967a9840d8e430e84a7c256702f07e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTextChange_d05adb8c64d64bf3b035ac168b729409",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onTextChanSitesSearch",
+            "display": "onTextChanSitesSearch",
+            "inputparams": [],
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

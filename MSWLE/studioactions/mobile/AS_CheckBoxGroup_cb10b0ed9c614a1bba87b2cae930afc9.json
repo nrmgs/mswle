@@ -1,0 +1,28 @@
+{
+    "AS_CheckBoxGroup_cb10b0ed9c614a1bba87b2cae930afc9": {
+        "id": "AS_CheckBoxGroup_cb10b0ed9c614a1bba87b2cae930afc9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmForm2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j668845b0a4d4cb3ac3d32c74dd0351a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h45c23f9a2234b5d9740533f02efa6a6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSelectWFType",
+            "display": "onSelectWFType",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

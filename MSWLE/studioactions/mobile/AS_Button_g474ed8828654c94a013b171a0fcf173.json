@@ -1,0 +1,27 @@
+{
+    "AS_Button_g474ed8828654c94a013b171a0fcf173": {
+        "id": "AS_Button_g474ed8828654c94a013b171a0fcf173",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStart",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a76bdd33eba6454e8f788291e44c8c8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_b80132c7f2184c40a6e0e663b54b7a5f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "invokeMSAuthApp",
+            "display": "invokeMSAuthApp",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

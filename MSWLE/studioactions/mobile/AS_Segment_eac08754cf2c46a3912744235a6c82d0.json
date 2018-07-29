@@ -1,0 +1,35 @@
+{
+    "AS_Segment_eac08754cf2c46a3912744235a6c82d0": {
+        "id": "AS_Segment_eac08754cf2c46a3912744235a6c82d0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmDashboardCopy",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i1a1d65717634f9da7adcf74c829eb0e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___e8e0d5818a154fb28ead1513833a2971",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmIncompLst",
+            "formKUID": "c4191bc3a743458e886c42871f092306",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

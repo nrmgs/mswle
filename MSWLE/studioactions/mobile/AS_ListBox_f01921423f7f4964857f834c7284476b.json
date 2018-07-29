@@ -1,0 +1,28 @@
+{
+    "AS_ListBox_f01921423f7f4964857f834c7284476b": {
+        "id": "AS_ListBox_f01921423f7f4964857f834c7284476b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmForm1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a5a0afbbe63b4679b0b509bce53de09d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___a99387e1cc7f49f59a2d4f16e3cafe23",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "eaa5e1d391c542d7b6a09f4fdc6a5539",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "AS_HBox_b423284c08894d7e8d92f850434197da": {
+        "id": "AS_HBox_b423284c08894d7e8d92f850434197da",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "SegTmpPriContractor",
+            "type": "templates",
+            "platform": null,
+            "KUID": "fba7028179e3409a95e16077cd2b849d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_fc4ba138077f4f958108e2c909b74119",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickPriContractor",
+            "display": "onClickPriContractor",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

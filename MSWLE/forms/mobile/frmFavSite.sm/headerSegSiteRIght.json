@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "49.96%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb979da6ed1c416b9621fe1a0b5434ad",
+    "_text_": "Favorites",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sb979da6ed1c416b9621fe1a0b5434ad",
+    "id": "headerSegSiteRIght",
+    "ide_onClick": "AS_Button_ca7f88753abd46db91e402fabce3aa88",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c22d0bfcbc954545bb091182334a81ad",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_bf163fa69a2f42dab9dfd8bbd6ca2a20",
+    "parent": "segmentedControl",
+    "pf": "frmFavSite",
+    "wType": "Button",
+    "zindex": 1
+}

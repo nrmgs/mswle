@@ -1,0 +1,27 @@
+{
+    "AS_ListBox_d9092588d49c467eab41ffbfc734e9de": {
+        "id": "AS_ListBox_d9092588d49c467eab41ffbfc734e9de",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onSelection_ef013775687e4765988d63ba5694fad0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSelectScore",
+            "display": "onSelectScore",
+            "inputparams": [{
+                "name": "obj",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

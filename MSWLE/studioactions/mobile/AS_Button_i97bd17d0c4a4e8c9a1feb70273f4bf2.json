@@ -1,0 +1,24 @@
+{
+    "AS_Button_i97bd17d0c4a4e8c9a1feb70273f4bf2": {
+        "id": "AS_Button_i97bd17d0c4a4e8c9a1feb70273f4bf2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "popupYesNo",
+            "type": "popups",
+            "platform": "",
+            "KUID": "j7a6f80ba387462a94f030f1d5f191f7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__adba9db884ae46e6899cdb8106d56380",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "popupYesNo.dismiss();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

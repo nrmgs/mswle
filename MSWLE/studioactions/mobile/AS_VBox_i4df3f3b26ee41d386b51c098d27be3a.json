@@ -1,0 +1,34 @@
+{
+    "AS_VBox_i4df3f3b26ee41d386b51c098d27be3a": {
+        "id": "AS_VBox_i4df3f3b26ee41d386b51c098d27be3a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "SegTmpFavSiteSavd",
+            "type": "templates",
+            "platform": "",
+            "KUID": "i519923f2b544118966b441a8fe5f331"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c4e79ff7066c4526acc099da77f8d28d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "delFavSites",
+            "display": "delFavSites",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

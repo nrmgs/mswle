@@ -1,0 +1,31 @@
+{
+    "AS_Button_gdbaa27f33924cdb833ff62ce17f2063": {
+        "id": "AS_Button_gdbaa27f33924cdb833ff62ce17f2063",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "dynamicRowTemplate1",
+            "type": "templates",
+            "platform": "",
+            "KUID": "j3ff4afd2cd447eca3367536fd23ff3d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d6da0318bae74b7b91a399c5999d93c7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectedValuRow",
+            "display": "selectedValuRow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

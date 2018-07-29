@@ -1,0 +1,27 @@
+{
+    "AS_Button_c8f5860fc0d2461ba824975a040ed6a7": {
+        "id": "AS_Button_c8f5860fc0d2461ba824975a040ed6a7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "popupSessionExp",
+            "type": "popups",
+            "platform": null,
+            "KUID": "ce2f7b97d24b44f4914ae3915a36a1e1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_ha99eef366c449539336df30585b4c12",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popsaveNo",
+            "display": "popsaveNo",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

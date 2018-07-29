@@ -1,0 +1,28 @@
+{
+    "AS_Button_h7deb2a6d3274243934577d06a7d891a": {
+        "id": "AS_Button_h7deb2a6d3274243934577d06a7d891a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboardCopy",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i1a1d65717634f9da7adcf74c829eb0e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i322496c1ed74e2e8293114a331acc19",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "rightSelectionDash",
+            "display": "rightSelectionDash",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

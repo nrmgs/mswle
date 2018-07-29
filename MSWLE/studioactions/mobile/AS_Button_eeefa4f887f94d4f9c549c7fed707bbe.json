@@ -1,0 +1,27 @@
+{
+    "AS_Button_eeefa4f887f94d4f9c549c7fed707bbe": {
+        "id": "AS_Button_eeefa4f887f94d4f9c549c7fed707bbe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmChesmFavSite",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ia0f71b1a3c14cbe8ee013145723fce8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_d66b2c7459d54849aee1b798de285181",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "leftSelChesmFavSites",
+            "display": "leftSelChesmFavSites",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

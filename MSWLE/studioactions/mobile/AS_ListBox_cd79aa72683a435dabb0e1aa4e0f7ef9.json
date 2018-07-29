@@ -1,0 +1,34 @@
+{
+    "AS_ListBox_cd79aa72683a435dabb0e1aa4e0f7ef9": {
+        "id": "AS_ListBox_cd79aa72683a435dabb0e1aa4e0f7ef9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "dynamicRowTemplate3",
+            "type": "templates",
+            "platform": "",
+            "KUID": "i8944d87fa2348b9a4cf06602df0ca7c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fa53c766bdb144a891f0a1be95354e5b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSelectScore",
+            "display": "onSelectScore",
+            "inputparams": [{
+                "name": "obj",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

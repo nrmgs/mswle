@@ -1,0 +1,24 @@
+{
+    "AS_Form_e3f414664e0f4707951334805c767fda": {
+        "id": "AS_Form_e3f414664e0f4707951334805c767fda",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a76bdd33eba6454e8f788291e44c8c8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b6f27331813141d2b24077dd99766fa3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "client = new kony.sdk();\n//client.init(\"4dbf9e19402349ba1a01fcbdef681d8c\",\"29e51d2f27a26c433dfe71280821a7de\",\"https://100021651.auth.konycloud.com/appconfig\",succKonyCallback, errCallback);//prod\n//client.init(\"91fd4bbc58492bc5bf576114764530b4\",\"defaf09a1501cfb87fa6998435f0077c\",\"https://100021651.auth.konycloud.com/appconfig\",succKonyCallback, errCallback);\nclient.init(\"82565c7b37a0a06c8917917a827e1915\",\"d0a51c64fc174eb185a02343555358eb \",\"https://100021651.auth.konycloud.com/appconfig\",succKonyCallback, errCallback);//dev\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

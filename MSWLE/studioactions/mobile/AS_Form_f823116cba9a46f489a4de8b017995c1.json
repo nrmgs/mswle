@@ -1,0 +1,44 @@
+{
+    "AS_Form_f823116cba9a46f489a4de8b017995c1": {
+        "id": "AS_Form_f823116cba9a46f489a4de8b017995c1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettings",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fc92e40255b84cb683d9dc682ab49c5b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d781e721ef3246a094a90ef484afb02f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitleSetg.lblHdrTitle.text = \"Settings\";\nflxHdrTitle.flxSettingBtn.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___eb7c3b23f0d440af9bd33ef6738cc948",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "settingsSetData",
+            "display": "settingsSetData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "INVOKE_FUNCTION___cca1dc49a0d245359c4a02667a17cb96",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateDeptTxt",
+            "display": "updateDeptTxt",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

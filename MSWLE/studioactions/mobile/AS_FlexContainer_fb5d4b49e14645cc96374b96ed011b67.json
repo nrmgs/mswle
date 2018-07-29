@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_fb5d4b49e14645cc96374b96ed011b67": {
+        "id": "AS_FlexContainer_fb5d4b49e14645cc96374b96ed011b67",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": "",
+            "KUID": "ac0fd982412a4b6aaa34abc25bb0c0a8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ja48d2ad96884754a08a614078f7349a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popCancelSub",
+            "display": "popCancelSub",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "AS_Label_ebdcaf0497f8459f8e87a18d4e35fc08": {
+        "id": "AS_Label_ebdcaf0497f8459f8e87a18d4e35fc08",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "hdrMainHome",
+            "type": "templates",
+            "platform": null,
+            "KUID": "d92ff321b18a4246bd3ea9b38185a235"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTouchEnd_e96dc77335dd433a8185d6ed4687b7c7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "backBtnPressed",
+            "display": "backBtnPressed",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "AS_TextField_fddece21befa42beb6a243a5cd26d956": {
+        "id": "AS_TextField_fddece21befa42beb6a243a5cd26d956",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmPreConfirmA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e77fbf1d98344c8b813ec3489e2e72c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onTouchEnd_g2c6c30674584b47b52f57dbca6f5b67",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmSite",
+            "formKUID": "a3a67d12dedd4d549507fb0071ffe466",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }, {
+            "id": "ADD_SNIPPET_ide_onTouchEnd_i22df291fd05480f8f4ddfca9db3e5bc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmSite.txtSearchSeg.text=\"\";\nfrmSite.segSites.setData([]);",
+            "callbackType": null
+        }]
+    }
+}

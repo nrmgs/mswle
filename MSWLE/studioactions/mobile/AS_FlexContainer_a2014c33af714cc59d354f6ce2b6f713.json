@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_a2014c33af714cc59d354f6ce2b6f713": {
+        "id": "AS_FlexContainer_a2014c33af714cc59d354f6ce2b6f713",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "footerSubmit",
+            "type": "templates",
+            "platform": "",
+            "KUID": "b3d7141b4adb4cc79df7d8d149ffb984"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d76a296fcec543d5b90bf5b47eca928d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateAssessmentService",
+            "display": "updateAssessmentService",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

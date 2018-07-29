@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_g45faa28eae444038b6b4b55f5f256ee": {
+        "id": "AS_FlexContainer_g45faa28eae444038b6b4b55f5f256ee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "hdrTempMain",
+            "type": "templates",
+            "platform": "",
+            "KUID": "fb4211643b6f4c88aafd001e3948753e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b4a8dace109b46c29a0ef115283c2f4d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var currenrtFrm = kony.application.getCurrentForm().id;\nfrmSettingCalPage = currenrtFrm;\nfrmSettings.show();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

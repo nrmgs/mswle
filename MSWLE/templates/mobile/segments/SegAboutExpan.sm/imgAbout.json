@@ -1,0 +1,45 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s53a78c7308c4bb8974d0e2770d66564",
+    "_src_": "about.png",
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "ispercent": true,
+        "platform": "iphone",
+        "templateType": "segments",
+        "topLevelBox": false
+    },
+    "id": "imgAbout",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "ispercent": true,
+    "isvisible": true,
+    "kuid": "e33d251475d041eaa830237ffacc8171",
+    "name": "kony.ui.Image2",
+    "parent": "boxDelFavSite",
+    "pf": "SegAboutExpan",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}

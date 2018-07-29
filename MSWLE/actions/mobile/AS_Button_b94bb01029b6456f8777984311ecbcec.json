@@ -1,0 +1,33 @@
+{
+    "AS_Button_b94bb01029b6456f8777984311ecbcec": {
+        "id": "AS_Button_b94bb01029b6456f8777984311ecbcec",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "dynamicRowTemplate1",
+            "type": "templates",
+            "platform": "",
+            "KUID": "j3ff4afd2cd447eca3367536fd23ff3d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ab7ad76f47e24fcfaf34fcf4858a5f3d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "btnYesSel",
+            "display": "btnYesSel",
+            "inputparams": [{
+                "name": "eventObj"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

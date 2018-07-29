@@ -1,0 +1,27 @@
+{
+    "AS_Button_h60ab32a22f842e0ba9b29eea004652b": {
+        "id": "AS_Button_h60ab32a22f842e0ba9b29eea004652b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "popApplicationOptionalUpgrade",
+            "type": "popups",
+            "platform": null,
+            "KUID": "fe0c530466f34daa8c7645501eddf2c5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_e6cd7eea67294c7983e646034379c71c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkUpgradetoStore",
+            "display": "checkUpgradetoStore",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

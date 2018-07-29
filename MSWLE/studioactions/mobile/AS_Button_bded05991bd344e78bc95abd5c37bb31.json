@@ -1,0 +1,23 @@
+{
+    "AS_Button_bded05991bd344e78bc95abd5c37bb31": {
+        "id": "AS_Button_bded05991bd344e78bc95abd5c37bb31",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "popApplicationOptionalUpgrade",
+            "type": "popups",
+            "platform": null,
+            "KUID": "fe0c530466f34daa8c7645501eddf2c5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d5adf1969c0b45dab3a2f1fc0065e462",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "gblOptionalFlag = \"true\";\npopApplicationOptionalUpgrade.dismiss();\nvalidateMSToken();",
+            "callbackType": null
+        }]
+    }
+}

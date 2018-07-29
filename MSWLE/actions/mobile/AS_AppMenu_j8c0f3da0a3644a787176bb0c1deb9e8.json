@@ -1,0 +1,21 @@
+{
+    "AS_AppMenu_j8c0f3da0a3644a787176bb0c1deb9e8": {
+        "id": "AS_AppMenu_j8c0f3da0a3644a787176bb0c1deb9e8",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmQtCategory",
+            "type": "forms",
+            "platform": "",
+            "KUID": "id8486b7da574e88861418f4c1f9478d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i31f899b6bef43569be549b6cd0353de",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "popupSubmitpopupSubmit.lblPopTxt.text = \"Are you sure want to Cancel?\";\npopupSubmit.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sa14a3c69af4417eb58e32dd5d8cfaf9",
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "flxOpenMyEngag",
+        "lblHdr1",
+        "lblDate",
+        "lblStatus",
+        "lblSite",
+        "lblPrimCont",
+        "btnDeleteFrmDB",
+        "lblDept"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "SegMyForms",
+    "ide_onClick": "AS_FlexContainer_h21cee347ac34631a5eef591f8474485",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "b5a956b1aa964a61ae7c8604394bd2b1",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "TempIncomFrmList",
+    "pf": "TempIncomFrmList",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "number",
+        "value": "50"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Primary Contractor",
+    "_right_": {
+        "type": "number",
+        "value": "11"
+    },
+    "_skin_": "s2551e8d2e334a93baa7801b1e8080dc",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "93.90%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s42dcad068874435b5555314f0ed0e98",
+    "id": "txtEngagPriContractor",
+    "ide_onTouchEnd": "AS_TextField_jc7f5534a20e46fbbffb46e931c0a30a",
+    "info": null,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "h2e91914844346a8b1533d1d6e1cd589",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxEngagPriContractor",
+    "pf": "frmForm1A",
+    "placeholderskin": "sef3fc37ad214014bfdbb892b3cda27c",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

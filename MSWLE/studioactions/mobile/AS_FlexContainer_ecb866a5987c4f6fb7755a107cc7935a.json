@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_ecb866a5987c4f6fb7755a107cc7935a": {
+        "id": "AS_FlexContainer_ecb866a5987c4f6fb7755a107cc7935a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e0c4dfb341604228b4bf42c256c13421",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "Popup.lblPopTxt.text = \"Use this form if you conduct the engagement using the CHESM IT tool.\";\nPopup.show();",
+            "callbackType": null
+        }]
+    }
+}

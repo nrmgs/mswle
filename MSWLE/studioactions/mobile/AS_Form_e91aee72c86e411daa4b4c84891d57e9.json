@@ -1,0 +1,28 @@
+{
+    "AS_Form_e91aee72c86e411daa4b4c84891d57e9": {
+        "id": "AS_Form_e91aee72c86e411daa4b4c84891d57e9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b4e1dcfcf7d141e3a5c6c0bd9e04983d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c450ff977b07435da8b7732038d7c914",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getAssessmentCount",
+            "display": "getAssessmentCount",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

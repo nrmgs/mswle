@@ -1,0 +1,27 @@
+{
+    "AS_Button_e2fcec10168e46edb8ab443f7284f74a": {
+        "id": "AS_Button_e2fcec10168e46edb8ab443f7284f74a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "popApplicationUpgrade",
+            "type": "popups",
+            "platform": null,
+            "KUID": "c4b815b67d514b3b8c811d8dd09b2a3d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_ba5d009876e148bf860c049cf1a6f40e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkUpgradetoStore",
+            "display": "checkUpgradetoStore",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

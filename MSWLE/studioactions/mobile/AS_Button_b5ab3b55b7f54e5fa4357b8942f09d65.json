@@ -1,0 +1,18 @@
+{
+    "AS_Button_b5ab3b55b7f54e5fa4357b8942f09d65": {
+        "id": "AS_Button_b5ab3b55b7f54e5fa4357b8942f09d65",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "popupConfirm",
+            "type": "popups",
+            "platform": "",
+            "KUID": "b848eb3a78d54b87a84857e3f9284ae4"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

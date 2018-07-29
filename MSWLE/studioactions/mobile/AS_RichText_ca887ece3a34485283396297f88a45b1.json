@@ -1,0 +1,27 @@
+{
+    "AS_RichText_ca887ece3a34485283396297f88a45b1": {
+        "id": "AS_RichText_ca887ece3a34485283396297f88a45b1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "linktext"
+        }, {
+            "datatype": "string",
+            "name": "attributes"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_f226fb075fef442f9e191b585f155748",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateDeptSites",
+            "display": "updateDeptSites",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

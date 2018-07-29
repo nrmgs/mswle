@@ -1,0 +1,33 @@
+{
+    "AS_Button_b8dc927541484c1f9f0d95ef92237fa8": {
+        "id": "AS_Button_b8dc927541484c1f9f0d95ef92237fa8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "CopydynamicRowTemplate0ie23891a6a8841",
+            "type": "templates",
+            "platform": null,
+            "KUID": "dbfe70c277f64a8db1dbec3c254e96cc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_db79899a61814cc39aef6360243cf090",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickQtAns",
+            "display": "onClickQtAns",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

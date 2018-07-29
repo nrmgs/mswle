@@ -1,0 +1,73 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Search Department Name",
+    "_skin_": "s6aa9d0b58474c2085aa33e5c11904c5",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sea7ace0ee184494bc8ed6c83d450249",
+    "id": "txtSearchDept",
+    "ide_onTextChange": "AS_TextField_e8f2f494b17345d8a38261f682c33401",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showClearButton": true,
+            "showCloseButton": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "h860c842e9644ab1afc07289cbb5c0c5",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxSearchDept",
+    "pf": "frmDepartment",
+    "placeholderskin": "saa796fae8e34924b78d6b9835638392",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "showclearbutton": true,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "search",
+    "wType": "TextField",
+    "zindex": 1
+}

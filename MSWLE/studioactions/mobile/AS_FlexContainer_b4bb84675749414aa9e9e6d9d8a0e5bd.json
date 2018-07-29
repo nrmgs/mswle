@@ -1,0 +1,36 @@
+{
+    "AS_FlexContainer_b4bb84675749414aa9e9e6d9d8a0e5bd": {
+        "id": "AS_FlexContainer_b4bb84675749414aa9e9e6d9d8a0e5bd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b4e1dcfcf7d141e3a5c6c0bd9e04983d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_a7e54350ab3b4a2983cdf0bb1a53e515",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmForm1",
+            "formKUID": "a5a0afbbe63b4679b0b509bce53de09d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": false,
+            "package": ""
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_e3f3e7a4d7344dd48de2bc6db30bffff",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "category = \"fieldverification\";\nqtCategoryFrom = \"new\";",
+            "callbackType": null,
+            "disabled": false
+        }]
+    }
+}

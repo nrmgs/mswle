@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_c8378003054b49f3bba609a9933cf87d": {
+        "id": "AS_FlexContainer_c8378003054b49f3bba609a9933cf87d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a004f42b0cdb4bb4ad16227ba92b7c19",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "Popup.lblPopTxt.text = \"Use this form if you conduct the engagement using the MSW LE IT tool.\";\nPopup.show();",
+            "callbackType": null
+        }]
+    }
+}

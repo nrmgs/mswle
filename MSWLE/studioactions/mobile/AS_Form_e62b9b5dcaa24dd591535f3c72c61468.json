@@ -1,0 +1,34 @@
+{
+    "AS_Form_e62b9b5dcaa24dd591535f3c72c61468": {
+        "id": "AS_Form_e62b9b5dcaa24dd591535f3c72c61468",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmIncompLst",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c4191bc3a743458e886c42871f092306"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fae9417dd8a1496cbebb69ae10ce9c99",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "segIncompFrm",
+            "display": "segIncompFrm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "ADD_SNIPPET__hd5378b68bd84fd78d089b6f9e4f1107",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitle.lblHdrTitle.text = \"MSW LE\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

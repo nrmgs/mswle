@@ -1,0 +1,33 @@
+{
+    "AS_Button_d4d6b9b4ebd246c683954f0bc527c09a": {
+        "id": "AS_Button_d4d6b9b4ebd246c683954f0bc527c09a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempIncomFrmList",
+            "type": "templates",
+            "platform": null,
+            "KUID": "d953ceea0baa42e0b97f78964092f5d8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onClick_dfe21a78219a487b86c75ada60e2ddf1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectedValuRow",
+            "display": "selectedValuRow",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_f0ad2b8c01784462b88e96ac8eef1436": {
+        "id": "AS_FlexContainer_f0ad2b8c01784462b88e96ac8eef1436",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fc92e40255b84cb683d9dc682ab49c5b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ede1afb470aa44c68903aecdba81f73e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateDeptSites",
+            "display": "updateDeptSites",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

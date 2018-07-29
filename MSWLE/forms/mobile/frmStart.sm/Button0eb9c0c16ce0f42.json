@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "Default": {
+        "contentAlignment": 5
+    },
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "43dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s77782c3f5e84f6bb8a108c368e1470c",
+    "_text_": "Tap to Login",
+    "_top_": {
+        "type": "string",
+        "value": "138dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa844d0e60ed46ab9c2152b302ec3e47",
+    "id": "Button0eb9c0c16ce0f42",
+    "ide_onClick": "AS_Button_b292c2a68a074b688ff553d493ac881c",
+    "info": null,
+    "iphone": {
+        "contentAlignment": 5
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f18600a0561e40469efd171f1a919ce7",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0ed4577ba7db342",
+    "pf": "frmStart",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,27 @@
+{
+    "AS_Form_cc969662b6764d14a25ae63c09e45893": {
+        "id": "AS_Form_cc969662b6764d14a25ae63c09e45893",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStart",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a76bdd33eba6454e8f788291e44c8c8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_postShow_h7d379ed0e1a4c178f01b9139c5a4ca3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkNetworkAndSync",
+            "display": "checkNetworkAndSync",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

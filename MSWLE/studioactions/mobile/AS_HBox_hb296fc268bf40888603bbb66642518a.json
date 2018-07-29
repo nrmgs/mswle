@@ -1,0 +1,31 @@
+{
+    "AS_HBox_hb296fc268bf40888603bbb66642518a": {
+        "id": "AS_HBox_hb296fc268bf40888603bbb66642518a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "SegSettings",
+            "type": "templates",
+            "platform": null,
+            "KUID": "c671a07dd51e423f9b2007ecb104557d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c005ef06a4b5402d93ef1fb098c82343",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSelSegSettings",
+            "display": "onSelSegSettings",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

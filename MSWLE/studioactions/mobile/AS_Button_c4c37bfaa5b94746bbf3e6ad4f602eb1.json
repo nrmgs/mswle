@@ -1,0 +1,28 @@
+{
+    "AS_Button_c4c37bfaa5b94746bbf3e6ad4f602eb1": {
+        "id": "AS_Button_c4c37bfaa5b94746bbf3e6ad4f602eb1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "popupSave",
+            "type": "popups",
+            "platform": "",
+            "KUID": "a9a61f29a6b848a087cfb6a3a7aece25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e5e8dcca525a4535bd6507104e7b028a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popsaveYes",
+            "display": "popsaveYes",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

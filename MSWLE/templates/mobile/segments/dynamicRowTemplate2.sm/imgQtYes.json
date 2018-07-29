@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "Default": {
+        "contentAlignment": 5
+    },
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s35da486b85f4d27ac21e6d10fed80ca",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "4dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "s546e9469a2d4dd3924155cbcc8af450",
+    "id": "imgQtYes",
+    "ide_onClick": "AS_Button_c876e3cf11f14b5a8c279f9e08bddb6b",
+    "info": null,
+    "iphone": {},
+    "isvisible": true,
+    "kuid": "a38303ee53a8425f9ea8273b5ba8ccf9",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_e5742dc32deb4d6685cb7a1fffd45732",
+    "parent": "FlexGroup0c875ac3ab13945",
+    "pf": "dynamicRowTemplate2",
+    "wType": "Button",
+    "zindex": 2
+}

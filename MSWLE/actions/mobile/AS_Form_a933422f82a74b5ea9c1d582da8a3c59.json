@@ -1,0 +1,28 @@
+{
+    "AS_Form_a933422f82a74b5ea9c1d582da8a3c59": {
+        "id": "AS_Form_a933422f82a74b5ea9c1d582da8a3c59",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDynamicJSATest",
+            "type": "forms",
+            "platform": null,
+            "KUID": "hee63a0d40ff4998a2d2e92c00026980"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___icf6690d099c48a193660ff2dac3bcc0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setSegData",
+            "display": "setSegData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "AS_Button_d1e15b3295ed42a69d1fe264b68db13e": {
+        "id": "AS_Button_d1e15b3295ed42a69d1fe264b68db13e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "cc9a4c28273d4141853ee84f7719aa6b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_e3c6a5bd089d474896ede8bb126d3c04",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "leftSelSite",
+            "display": "leftSelSite",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

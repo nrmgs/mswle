@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_g5ace1419a044bb392a58826bef4f946": {
+        "id": "AS_FlexContainer_g5ace1419a044bb392a58826bef4f946",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "eaa5e1d391c542d7b6a09f4fdc6a5539"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d86079b61bd547b399e21c944b930feb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "Popup.lblPopTxt.text = \"Use the tree to select the site where you performed the engagement/verification and the department of the work crew you engaged.\";\nPopup.show();",
+            "callbackType": null
+        }]
+    }
+}

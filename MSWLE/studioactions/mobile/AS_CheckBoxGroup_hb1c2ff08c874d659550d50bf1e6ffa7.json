@@ -1,0 +1,21 @@
+{
+    "AS_CheckBoxGroup_hb1c2ff08c874d659550d50bf1e6ffa7": {
+        "id": "AS_CheckBoxGroup_hb1c2ff08c874d659550d50bf1e6ffa7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onSelection_f5b90e794e3246b3a16da1f58468af5e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getSpecializedActvty",
+            "display": "getSpecializedActvty",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

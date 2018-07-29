@@ -1,0 +1,43 @@
+{
+    "AS_Form_f3de729f591a4b238f69b531b55ba24f": {
+        "id": "AS_Form_f3de729f591a4b238f69b531b55ba24f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDynamicJSA1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b7c5217f19fc4731abc16f55a1f73c8f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j8a36473324d46b08e295da4cc1cd913",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "hdrTxtChng",
+            "display": "hdrTxtChng",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "INVOKE_FUNCTION___h6023acc77af4f2d8578d236d3af2407",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setQtJSA",
+            "display": "setQtJSA",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "ADD_SNIPPET__c887097eaa5f4d7c8e9215db70f6413d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitle.flxSettingBtn.setVisibility(true);",
+            "parentId": null
+        }]
+    }
+}

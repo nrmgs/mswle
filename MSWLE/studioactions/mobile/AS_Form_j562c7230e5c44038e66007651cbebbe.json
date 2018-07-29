@@ -1,0 +1,22 @@
+{
+    "AS_Form_j562c7230e5c44038e66007651cbebbe": {
+        "id": "AS_Form_j562c7230e5c44038e66007651cbebbe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPrimaryContractor",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c6304acf55684133b93e12428d2ef58c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_c0320cc7641c4cc3b04d865c8e31dad1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitle.lblHdrTitle.text = \"Primary Contractors\";\nfrmPrimaryContractor.txtSearchPrimaryContractor.text=\"\";\nfrmPrimaryContractor.segPriContractor.setData([]);\nflxHdrTitle.flxSettingBtn.setVisibility(false);"
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_e952fbad2ea44df7a166811b61b6ba87": {
+        "id": "AS_FlexContainer_e952fbad2ea44df7a166811b61b6ba87",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmForm1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a5a0afbbe63b4679b0b509bce53de09d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c530dfa82e524fd49da715dfa5a3e7ce",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "Popup.lblPopTxt.text = \"This is free text field. Enter the specific details of where the engagement was conducted\";\nPopup.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

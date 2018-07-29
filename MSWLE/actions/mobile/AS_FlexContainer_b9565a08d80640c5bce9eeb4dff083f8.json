@@ -1,0 +1,34 @@
+{
+    "AS_FlexContainer_b9565a08d80640c5bce9eeb4dff083f8": {
+        "id": "AS_FlexContainer_b9565a08d80640c5bce9eeb4dff083f8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i1a1d65717634f9da7adcf74c829eb0e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__onClick_d0824d9831c94ad08c0a0e10bb3953a9",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmForm1",
+            "formKUID": "a5a0afbbe63b4679b0b509bce53de09d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }, {
+            "id": "ADD_SNIPPET_onClick_cbfa338eaf924f6d972f61739c5a0124",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "category = \"filedverification\";",
+            "callbackType": null
+        }]
+    }
+}

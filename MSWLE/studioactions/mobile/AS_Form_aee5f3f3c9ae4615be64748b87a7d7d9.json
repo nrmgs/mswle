@@ -1,0 +1,45 @@
+{
+    "AS_Form_aee5f3f3c9ae4615be64748b87a7d7d9": {
+        "id": "AS_Form_aee5f3f3c9ae4615be64748b87a7d7d9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettings",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fc92e40255b84cb683d9dc682ab49c5b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_preShow_i3e39275e429431e984c2b0640586417",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "hdrTxtChng",
+            "display": "hdrTxtChng",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "INVOKE_FUNCTION__ide_preShow_j74e70864c47422ba052d94826cc3f04",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getTodayDate",
+            "display": "getTodayDate",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "INVOKE_FUNCTION__ide_preShow_f16eb010d25d4ba8a3e5e7d0b3794ed5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearFormOneAddInfo",
+            "display": "clearFormOneAddInfo",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "AS_TextField_h83695071a1948b8a019d9040f1ed65f": {
+        "id": "AS_TextField_h83695071a1948b8a019d9040f1ed65f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmPreConfirmB",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ic2d51cf177b4585b8472ce15717b8e1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTouchEnd_a85d45026e0746de859518b952a30e39",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getLocation",
+            "display": "getLocation",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

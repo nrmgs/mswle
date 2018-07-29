@@ -1,0 +1,24 @@
+{
+    "AS_RadioButtonGroup_abcc46b29de94c32806b666841d22eb3": {
+        "id": "AS_RadioButtonGroup_abcc46b29de94c32806b666841d22eb3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmForm2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j668845b0a4d4cb3ac3d32c74dd0351a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e019a87acb0841e996116a2afcacd966",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nvar arrTime = frmForm2.rbtnEngagTimeofDay.selectedKeyValue;\nselectedTime = arrTime[0];\n//alert(\"onSelection selectedTime:\" + selectedTime);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizHBox",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_position_": 3,
+    "_skin_": "s565309a7343419eba6ab92a8c381f84",
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "CopyButton0fb20ab59275242"
+    ],
+    "containerweight": 100,
+    "contextmenu": null,
+    "id": "HBox0c6f4705ee6094b",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c8482863d18c453dace33b596880968a",
+    "layouttype": 0,
+    "name": "kony.ui.Box",
+    "parent": "popApplicationUpgrade",
+    "pf": "popApplicationUpgrade",
+    "wType": "HBox",
+    "widgetalignment": 1
+}

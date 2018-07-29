@@ -1,0 +1,33 @@
+{
+    "AS_HBox_j5d33d3d090d43898faa59a97a75fba7": {
+        "id": "AS_HBox_j5d33d3d090d43898faa59a97a75fba7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "SecHeaderChesmFav",
+            "type": "templates",
+            "platform": null,
+            "KUID": "i774624ec0d24c6d80748c46824115eb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_f0db24e72da14ecfb6bc25bf869b19a5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickFavSitesChesm",
+            "display": "onClickFavSitesChesm",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

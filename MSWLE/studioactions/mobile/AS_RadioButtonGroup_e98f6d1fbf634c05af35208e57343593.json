@@ -1,0 +1,31 @@
+{
+    "AS_RadioButtonGroup_e98f6d1fbf634c05af35208e57343593": {
+        "id": "AS_RadioButtonGroup_e98f6d1fbf634c05af35208e57343593",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmForm2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j668845b0a4d4cb3ac3d32c74dd0351a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e0dae8a0540f47d48cd5b0fe6ce9dab1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSelectTime",
+            "display": "onSelectTime",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

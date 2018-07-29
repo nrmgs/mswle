@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_icfcf1617be148db97bcb5a9bf0c114b": {
+        "id": "AS_FlexContainer_icfcf1617be148db97bcb5a9bf0c114b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "footerSave",
+            "type": "templates",
+            "platform": "",
+            "KUID": "de2232f2d4de4878bc30686a2ae14f8f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b97192fbcc10430290669167a1654b5d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saveSelQt",
+            "display": "saveSelQt",
+            "inputparams": [{
+                "name": "source"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

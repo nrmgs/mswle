@@ -1,0 +1,151 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "btnDeleteFrmDB": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDept": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Completed"
+            },
+            "lblHdr1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimCont": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Completed"
+            },
+            "lblSite": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Completed"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "123dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "99.31%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "editstyle": "swipe",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segIncomLst",
+    "ide_onRowClick": "AS_Segment_eac08754cf2c46a3912744235a6c82d0",
+    "info": null,
+    "invokedProperty": "unselectedStateImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "editStyle": "swipe",
+            "indicator": "none"
+        },
+        "viewType": "tableview"
+    },
+    "isvisible": false,
+    "kuid": "da286f97739d407e8405dc65a4273364",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "onrowclick": "AS_Segment_ef84c2dd37ed4b51afbf50b9c6c4686d",
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "frmDashboardCopy",
+    "pf": "frmDashboardCopy",
+    "retainselection": false,
+    "rowTemplateId": "d953ceea0baa42e0b97f78964092f5d8",
+    "rowcounter": 0,
+    "rowfocusskin": "s83e9dac23dc4a34854bf1196523d2f3",
+    "rowskin": "s81afd68001b4d3689e330f1feef4d40",
+    "rowtemplate": "SegMyForms",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s85169dba2444c8f904363647b3f7f2f",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "singleselect",
+    "selectionbehaviorconfig": {},
+    "separatorcolor": "f7f8fa64",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 750,
+        "widthRatio": 0
+    },
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "SegMyForms": "SegMyForms",
+        "btnDeleteFrmDB": "btnDeleteFrmDB",
+        "flxOpenMyEngag": "flxOpenMyEngag",
+        "flxSegInCmpLst": "flxSegInCmpLst",
+        "lblDate": "lblDate",
+        "lblDept": "lblDept",
+        "lblHdr1": "lblHdr1",
+        "lblPrimCont": "lblPrimCont",
+        "lblSite": "lblSite",
+        "lblStatus": "lblStatus"
+    },
+    "zindex": 1
+}

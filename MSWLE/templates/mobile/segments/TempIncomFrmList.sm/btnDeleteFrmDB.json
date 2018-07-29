@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "29dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "86%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7ab4bce1ca5441fb469e33bb2160117",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "21dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "26dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s546e9469a2d4dd3924155cbcc8af450",
+    "id": "btnDeleteFrmDB",
+    "ide_onClick": "AS_Button_b812af5f0f9b4a69a635c2b81b012098",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e1084daebda74fe39634692cdda08c81",
+    "name": "kony.ui.Button",
+    "parent": "SegMyForms",
+    "pf": "TempIncomFrmList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

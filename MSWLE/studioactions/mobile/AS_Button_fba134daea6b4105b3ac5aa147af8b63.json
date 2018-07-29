@@ -1,0 +1,28 @@
+{
+    "AS_Button_fba134daea6b4105b3ac5aa147af8b63": {
+        "id": "AS_Button_fba134daea6b4105b3ac5aa147af8b63",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFavSite",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f967a9840d8e430e84a7c256702f07e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d4f718543d674f2d8cccf64432b3d5ac",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "leftSelFavSites",
+            "display": "leftSelFavSites",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

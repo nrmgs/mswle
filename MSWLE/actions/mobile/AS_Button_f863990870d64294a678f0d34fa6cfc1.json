@@ -1,0 +1,24 @@
+{
+    "AS_Button_f863990870d64294a678f0d34fa6cfc1": {
+        "id": "AS_Button_f863990870d64294a678f0d34fa6cfc1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Popup",
+            "type": "popups",
+            "platform": null,
+            "KUID": "b83038bf1ba249e5aeb71c0c88810de9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ib2b564c2dda4617aabff0683238f06a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "Popup.dismiss();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

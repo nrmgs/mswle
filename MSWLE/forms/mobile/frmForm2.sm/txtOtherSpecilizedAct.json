@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "number",
+        "value": "50"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Other specialized activity",
+    "_right_": 13,
+    "_skin_": "s2551e8d2e334a93baa7801b1e8080dc",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "64dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "93.94%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s42dcad068874435b5555314f0ed0e98",
+    "id": "txtOtherSpecilizedAct",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "closeButtonText": "Done",
+            "pasteboardType": 1
+        }
+    },
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "a2359fe475db492ba3f517e4a8f71e4e",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxOtherActivity",
+    "pasteboardtype": 1,
+    "pf": "frmForm2",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

@@ -1,0 +1,34 @@
+{
+    "AS_Button_b812af5f0f9b4a69a635c2b81b012098": {
+        "id": "AS_Button_b812af5f0f9b4a69a635c2b81b012098",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempIncomFrmList",
+            "type": "templates",
+            "platform": "",
+            "KUID": "d953ceea0baa42e0b97f78964092f5d8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d172d1d36daa40f3b4b5a009f20df60d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "deleteEngagFromDB",
+            "display": "deleteEngagFromDB",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

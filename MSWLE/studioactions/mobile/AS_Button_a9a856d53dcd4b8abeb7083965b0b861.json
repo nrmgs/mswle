@@ -1,0 +1,27 @@
+{
+    "AS_Button_a9a856d53dcd4b8abeb7083965b0b861": {
+        "id": "AS_Button_a9a856d53dcd4b8abeb7083965b0b861",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPreConfirmB",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ic2d51cf177b4585b8472ce15717b8e1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_f94cb740312e4b368afb17bfdb100775",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getselecSiteAndDept",
+            "display": "getselecSiteAndDept",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

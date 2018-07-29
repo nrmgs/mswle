@@ -1,0 +1,32 @@
+{
+    "AS_HBox_ac59fcf7ba4749cb9e2659f7321f09d5": {
+        "id": "AS_HBox_ac59fcf7ba4749cb9e2659f7321f09d5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "deptSegTemplate",
+            "type": "templates",
+            "platform": null,
+            "KUID": "f4b1b42a1c86424c981e742a6f3f30a2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_a789e716119d42378342c31f58522995",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickDept",
+            "display": "onClickDept",
+            "inputparams": [{
+                "name": "eventObj"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

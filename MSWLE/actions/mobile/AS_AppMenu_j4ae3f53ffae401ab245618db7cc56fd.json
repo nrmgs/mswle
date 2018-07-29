@@ -1,0 +1,21 @@
+{
+    "AS_AppMenu_j4ae3f53ffae401ab245618db7cc56fd": {
+        "id": "AS_AppMenu_j4ae3f53ffae401ab245618db7cc56fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmQtCategory",
+            "type": "forms",
+            "platform": "",
+            "KUID": "id8486b7da574e88861418f4c1f9478d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ad4d8f2a1cf74fd0bb091fd7640f3272",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "popupSubmit.lblPopTxt.text = \"Are you sure you’re ready to submit to IMPACT?\";\npopupSubmit.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

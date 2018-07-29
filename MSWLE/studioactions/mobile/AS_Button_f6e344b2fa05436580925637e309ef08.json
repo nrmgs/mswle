@@ -1,0 +1,28 @@
+{
+    "AS_Button_f6e344b2fa05436580925637e309ef08": {
+        "id": "AS_Button_f6e344b2fa05436580925637e309ef08",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "popupConfirm",
+            "type": "popups",
+            "platform": "",
+            "KUID": "b848eb3a78d54b87a84857e3f9284ae4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fa61ad5fd6394ce5a14e74d38161664c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "popupConfirmOnClickYes",
+            "display": "popupConfirmOnClickYes",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

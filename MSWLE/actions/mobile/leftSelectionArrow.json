@@ -1,0 +1,29 @@
+{
+    "AS_Button_ef6bfcbc7516426da878fdfad9e2e904": {
+        "id": "AS_Button_ef6bfcbc7516426da878fdfad9e2e904",
+        "type": "ACTION_SEQUENCE",
+        "name": "leftSelectionArrow",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2a1d30b0ab54c9fb9b5b2a5e66cc500"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a073e1d490794d7fa92ccd276bb18c0c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "leftSelection",
+            "display": "leftSelection",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

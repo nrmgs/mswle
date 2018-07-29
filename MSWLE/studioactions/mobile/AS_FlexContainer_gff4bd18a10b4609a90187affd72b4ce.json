@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_gff4bd18a10b4609a90187affd72b4ce": {
+        "id": "AS_FlexContainer_gff4bd18a10b4609a90187affd72b4ce",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "footerSubmit",
+            "type": "templates",
+            "platform": null,
+            "KUID": "b3d7141b4adb4cc79df7d8d149ffb984"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_d2b8914b58ec49c0ace727eac6d0dba8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saveSelQt",
+            "display": "saveSelQt",
+            "inputparams": [{
+                "name": "source"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

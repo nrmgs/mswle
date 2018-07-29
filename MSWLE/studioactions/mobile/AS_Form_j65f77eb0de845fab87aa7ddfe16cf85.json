@@ -1,0 +1,28 @@
+{
+    "AS_Form_j65f77eb0de845fab87aa7ddfe16cf85": {
+        "id": "AS_Form_j65f77eb0de845fab87aa7ddfe16cf85",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmQtCategory1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e689a325fbae422787afda6e6c46ff09"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___acb566bd7bdd44d6a670dc96cf61761f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "initQtAnsArr",
+            "display": "initQtAnsArr",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "source": "module"
+        }]
+    }
+}

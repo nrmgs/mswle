@@ -1,0 +1,22 @@
+{
+    "AS_Form_adc66677a07747279efbe4cd81772d80": {
+        "id": "AS_Form_adc66677a07747279efbe4cd81772d80",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSite",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a3a67d12dedd4d549507fb0071ffe466"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_e525c45176ea44c082a9e7a3713d7173",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitle.lblHdrTitle.text = \"Sites\";\nflxHdrTitle.flxSettingBtn.setVisibility(false);\nfrmSite.txtSearchSeg.text=\"\";\nfrmSite.segSites.setData([]);\nleftSelSite();"
+        }]
+    }
+}

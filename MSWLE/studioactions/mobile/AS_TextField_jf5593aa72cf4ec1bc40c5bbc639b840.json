@@ -1,0 +1,28 @@
+{
+    "AS_TextField_jf5593aa72cf4ec1bc40c5bbc639b840": {
+        "id": "AS_TextField_jf5593aa72cf4ec1bc40c5bbc639b840",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "e78a9fbd15b943648816b0ca4d070baf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTextChange_g7d7240ea15145808b3289489fa558b6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "testSear",
+            "display": "testSear",
+            "inputparams": [],
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_b0694a592e3d4ab8be0497ddb3c65602": {
+        "id": "AS_Button_b0694a592e3d4ab8be0497ddb3c65602",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAbout",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fa8548cc611349cb9cecbeff392ab806"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ac0d2fdfd18d49d08c9ba8d40d491845",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateDeptSites",
+            "display": "updateDeptSites",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

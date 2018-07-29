@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_d2b439ca023b4c0585d81cc4474440d1": {
+        "id": "AS_FlexContainer_d2b439ca023b4c0585d81cc4474440d1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "footerSave",
+            "type": "templates",
+            "platform": "",
+            "KUID": "de2232f2d4de4878bc30686a2ae14f8f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h6c1f9c70ffa4c47b8adcc5d1fb1d0e8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "cancelToLocDB",
+            "display": "cancelToLocDB",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

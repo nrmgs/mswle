@@ -1,0 +1,71 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_skin_": "s442eef0e1614f9a914d90dcb57447a7",
+    "_top_": {
+        "type": "string",
+        "value": "11dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92.29%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "flxFrm2GrpHeadBx",
+        "flxWorkForceTyp",
+        "flxWorkCrew",
+        "flxSubContr",
+        "flxOtherActivity",
+        "lblSpecializedActivity",
+        "cbxSpecializedActivity",
+        "flxPermit",
+        "flxEngagDate",
+        "flxEngagSpecificLoca",
+        "flxEngagTimeofDay"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxFrm2GrpHead",
+    "info": null,
+    "isvisible": true,
+    "kuid": "j5cf483bf90a466dbfdfb11fb20e5f6c",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "frmForm2",
+    "pf": "frmForm2",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

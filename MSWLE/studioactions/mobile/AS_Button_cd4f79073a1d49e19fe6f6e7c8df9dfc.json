@@ -1,0 +1,33 @@
+{
+    "AS_Button_cd4f79073a1d49e19fe6f6e7c8df9dfc": {
+        "id": "AS_Button_cd4f79073a1d49e19fe6f6e7c8df9dfc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_dbf90d4cfe6249009dda530818194b4c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "invokeMSAuthApp",
+            "display": "invokeMSAuthApp",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": true,
+            "source": "module"
+        }, {
+            "id": "INVOKE_FUNCTION___d4b3f21698ce45aab308758bda37a86e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "callLogin",
+            "display": "callLogin",
+            "inputparams": [{
+                "name": "userName"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "AS_Form_b740012640a446c5b887ce0748e78ed1": {
+        "id": "AS_Form_b740012640a446c5b887ce0748e78ed1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmForm2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j668845b0a4d4cb3ac3d32c74dd0351a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_preShow_e0435d2575e94b8694336f3a19baa112",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "hdrTxtChng",
+            "display": "hdrTxtChng",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "INVOKE_FUNCTION___hd533eae393744ca96e7cbfcce855152",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getTodayDate",
+            "display": "getTodayDate",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": false,
+            "source": "module"
+        }, {
+            "id": "ADD_SNIPPET__e90ed9922f124471af9090e5233a5be7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitle.flxSettingBtn.setVisibility(true);",
+            "parentId": null
+        }, {
+            "id": "INVOKE_FUNCTION___cbbc72952b6145c180f7901e35c0516c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateSpecActs",
+            "display": "updateSpecActs",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

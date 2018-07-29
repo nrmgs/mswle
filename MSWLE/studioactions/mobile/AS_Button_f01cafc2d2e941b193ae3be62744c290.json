@@ -1,0 +1,21 @@
+{
+    "AS_Button_f01cafc2d2e941b193ae3be62744c290": {
+        "id": "AS_Button_f01cafc2d2e941b193ae3be62744c290",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_h1f3eee9bf6147389f24487d02b0455f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getselecSiteAndDept",
+            "display": "getselecSiteAndDept",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

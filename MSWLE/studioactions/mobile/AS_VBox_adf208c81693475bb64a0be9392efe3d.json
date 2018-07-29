@@ -1,0 +1,33 @@
+{
+    "AS_VBox_adf208c81693475bb64a0be9392efe3d": {
+        "id": "AS_VBox_adf208c81693475bb64a0be9392efe3d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "SegChsmFavSitSavd",
+            "type": "templates",
+            "platform": null,
+            "KUID": "c75bdcf8455e47de87ae672670316c12"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_c266cd621105403fa8028ce43e5f3b77",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "delChesmFavSites",
+            "display": "delChesmFavSites",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

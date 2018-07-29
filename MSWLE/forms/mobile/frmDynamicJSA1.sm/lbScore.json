@@ -1,0 +1,98 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "[NONE]",
+    "_skin_": "sce766775243420e883a244ca40b1e5f",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "296dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "s6379493e3df4adba0b362f016549c17",
+    "groupcells": false,
+    "id": "lbScore",
+    "ide_onSelection": "AS_ListBox_d9092588d49c467eab41ffbfc734e9de",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f2b6e533900f4696b7ec881998e36537",
+    "masterdata": [
+        [
+            "0",
+            "[NONE]"
+        ],
+        [
+            "1",
+            "0"
+        ],
+        [
+            "2",
+            "1"
+        ],
+        [
+            "3",
+            "2"
+        ],
+        [
+            "4",
+            "3"
+        ],
+        [
+            "5",
+            "4"
+        ],
+        [
+            "6",
+            "5"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxRowScore",
+    "pf": "frmDynamicJSA1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "0",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "0",
+        "[NONE]"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

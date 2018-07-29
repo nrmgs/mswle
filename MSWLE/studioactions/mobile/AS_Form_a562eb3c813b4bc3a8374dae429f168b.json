@@ -1,0 +1,22 @@
+{
+    "AS_Form_a562eb3c813b4bc3a8374dae429f168b": {
+        "id": "AS_Form_a562eb3c813b4bc3a8374dae429f168b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLocation",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gb3db8c477d042679690953a22ac1aa1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_a48c64889f9543f0b3bbf791d76b5d50",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "flxHdrTitle.lblHdrTitle.text = \"Location\";\nflxHdrTitle.flxSettingBtn.setVisibility(false);"
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_hd4c38d163774b1a841e12774fea3779": {
+        "id": "AS_Button_hd4c38d163774b1a841e12774fea3779",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "popupSessionExp",
+            "type": "popups",
+            "platform": null,
+            "KUID": "ce2f7b97d24b44f4914ae3915a36a1e1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i96d8fcf54b84914bceebe1e4dae360b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "popupSessionExp.dismiss();\nkony.application.dismissLoadingScreen();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
